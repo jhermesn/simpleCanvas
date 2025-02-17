@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out"
+    "deploy": "npm run build && git add docs && git commit -m 'Deploy' && git push"
   },
+  "type": "module",
   "dependencies": {
     "@radix-ui/react-slider": "latest",
     "@radix-ui/react-toast": "latest",
