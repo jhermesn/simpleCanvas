@@ -12,7 +12,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: "export",
   distDir: "docs",
-  assetPrefix: "/docs/"
+  basePath: "/simpleCanvas",
+  assetPrefix: "/docs/",
 }
 
 export default nextConfig
