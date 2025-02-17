@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === 'production';
-const repositoryName = "simpleCanvas";
-
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -15,8 +12,6 @@ const nextConfig = {
   },
   reactStrictMode: true,
   output: "export",
-  basePath: isProd ? `/${repositoryName}` : "",
-  assetPrefix: isProd ? `/${repositoryName}/` : "",
 }
 
 export default nextConfig
