@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-slider": "latest",
+    "@radix-ui/react-toast": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "^10.4.20",
